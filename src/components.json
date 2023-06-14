@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "name": "StackedNavigation",
+      "variations": {
+        "FixedHeaderWithLinkBanner": {
+          "brands": [
+            {
+              "name": "AD",
+              "engagement": 38
+            },
+            {
+              "name": "CNT",
+              "engagement": 12
+            },
+            {
+              "name": "GQ",
+              "engagement": 24
+            },
+            {
+              "name": "Vogue",
+              "engagement": 18
+            }
+          ],
+          "control": "FixedHeaderLargeLogo"
+        },
+        "FixedHeaderLargeLogo": {
+          "brands": [
+            {
+              "name": "Bon-Appetite",
+              "engagement": -22
+            },
+            {
+              "name": "CNT",
+              "engagement": -38
+            },
+            {
+              "name": "Allure",
+              "engagement": -27
+            }
+          ],
+          "control": "FixedHeaderWithLinkBanner"
+        }
+      }
+    },
+    {
+      "name": "VenueGalleriesRecircList",
+      "variations": {
+        "FourUp": {
+          "brands": [
+            {
+              "name": "Bon-Appetite",
+              "engagement": -22
+            },
+            {
+              "name": "CNT",
+              "engagement": -38
+            },
+            {
+              "name": "Allure",
+              "engagement": -27
+            }
+          ],
+          "control": "FourUp"
+        },
+        "TextOverlay": {
+          "brands": [
+            {
+              "name": "Bon-Appetite",
+              "engagement": 30
+            },
+            {
+              "name": "CNT",
+              "engagement": 35
+            },
+            {
+              "name": "Allure",
+              "engagement": 15
+            }
+          ],
+          "control": "TextOverlay"
+        }
+      }
+    },
+    {
+      "name": "SummaryItem",
+      "variations": {
+        "TextBelowLeft": {
+          "brands": [
+            {
+              "name": "Bon-Appetite",
+              "engagement": -22
+            },
+            {
+              "name": "CNT",
+              "engagement": -38
+            },
+            {
+              "name": "Allure",
+              "engagement": -27
+            }
+          ],
+          "control": "TextBelowCenter"
+        },
+        "CircularImage": {
+          "brands": [
+            {
+              "name": "Bon-Appetite",
+              "engagement": 7
+            },
+            {
+              "name": "CNT",
+              "engagement": 3
+            },
+            {
+              "name": "Allure",
+              "engagement": 4
+            }
+          ],
+          "control": "SideBySideDesktopOnlyThirdsCircularImage"
+        },
+        "SideBySideImageRight": {
+          "brands": [
+            {
+              "name": "Bon-Appetite",
+              "engagement": 4
+            },
+            {
+              "name": "CNT",
+              "engagement": -3
+            },
+            {
+              "name": "Allure",
+              "engagement": 10
+            }
+          ],
+          "control": "SideBySideCenterImageLeft"
+        }
+      }
+    }
+  ]
+}
