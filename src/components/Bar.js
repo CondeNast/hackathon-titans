@@ -20,7 +20,7 @@ export const BarChart = ({ chartData, label }) => {
           plugins: {
             title: {
               display: true,
-              text: "Click Rate",
+              text: "",
             },
             legend: {
               display: false,
