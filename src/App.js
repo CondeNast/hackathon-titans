@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
 import Chart from "chart.js/auto";
 import { CategoryScale } from "chart.js";
 
@@ -48,14 +50,12 @@ function App() {
           })}
         </div>
 
-        <div>
-          {Object.keys(componentVariations).map((variationKey) => {
-            return (
-              <div className="group">
-                <p
-                  className={`clickable ${
-                    variationKey === chartLabel ? "active" : ""
-                  }`}
+        <div className="main">
+          <div className="options">
+            {Object.keys(componentVariations).map((variationKey) => {
+              return (
+                <div
+                  className="group"
                   onClick={() => {
                     const ch = componentVariations[variationKey].brands.map(
                       (brand) => {
@@ -88,21 +88,33 @@ function App() {
                     setChartLabel(variationKey);
                   }}
                 >
-                  {variationKey}
-                </p>
-                <p>Control: {componentVariations[variationKey].control}</p>
-                {/* <p>
+                  <Card>
+                    <CardContent>
+                      <p
+                        className={`clickable ${
+                          variationKey === chartLabel ? "active" : ""
+                        }`}
+                      >
+                        {variationKey}
+                      </p>
+                      <p>
+                        Control: {componentVariations[variationKey].control}
+                      </p>
+                      {/* <p>
                   Brands:{" "}
                   {componentVariations[variationKey].brands.map((brand) => (
                     <span>{brand.name} </span>
                   ))}
                 </p> */}
-              </div>
-            );
-          })}
-        </div>
+                    </CardContent>
+                  </Card>
+                </div>
+              );
+            })}
+          </div>
 
-        {chartData && <BarChart chartData={chartData} label={chartLabel} />}
+          {chartData && <BarChart chartData={chartData} label={chartLabel} />}
+        </div>
       </div>
     </>
   );
