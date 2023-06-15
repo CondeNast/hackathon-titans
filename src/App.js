@@ -24,10 +24,10 @@ function App() {
   return (
     <>
       <h2 className="header">Analytics</h2>
-      <Tabs value={tabIndex} onChange={handleChange}>
+      {/* <Tabs value={tabIndex} onChange={handleChange}>
         <Tab label="Experimental Hub" />
         <Tab label="Research Hub" />
-      </Tabs>
+      </Tabs> */}
       <div className="App">
         <div className="list-container">
           {experimentsData.components.map((component) => {
