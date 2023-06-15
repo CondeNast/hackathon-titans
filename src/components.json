@@ -1,9 +1,9 @@
 {
   "components": [
     {
-      "name": "StackedNavigation",
+      "name": "Ad Revenue",
       "variations": {
-        "FixedHeaderWithLinkBanner": {
+        "Ad placement at top of the page": {
           "brands": [
             {
               "name": "AD",
@@ -22,9 +22,9 @@
               "engagement": 18
             }
           ],
-          "control": "FixedHeaderLargeLogo"
+          "control": "Ad placement at middle of the page"
         },
-        "FixedHeaderLargeLogo": {
+        "Paywall 1": {
           "brands": [
             {
               "name": "Bon-Appetite",
@@ -39,14 +39,14 @@
               "engagement": -27
             }
           ],
-          "control": "FixedHeaderWithLinkBanner"
+          "control": "Paywall 3"
         }
       }
     },
     {
-      "name": "VenueGalleriesRecircList",
+      "name": "Subscription",
       "variations": {
-        "FourUp": {
+        "1 day free trail": {
           "brands": [
             {
               "name": "Bon-Appetite",
@@ -61,9 +61,9 @@
               "engagement": -27
             }
           ],
-          "control": "FourUp"
+          "control": "No free trail"
         },
-        "TextOverlay": {
+        "Paywall 1": {
           "brands": [
             {
               "name": "Bon-Appetite",
@@ -78,14 +78,14 @@
               "engagement": 15
             }
           ],
-          "control": "TextOverlay"
+          "control": "Paywall"
         }
       }
     },
     {
-      "name": "SummaryItem",
+      "name": "Click Through Rate",
       "variations": {
-        "TextBelowLeft": {
+        "Affiliate Commerce link at the top": {
           "brands": [
             {
               "name": "Bon-Appetite",
@@ -100,9 +100,9 @@
               "engagement": -27
             }
           ],
-          "control": "TextBelowCenter"
+          "control": "No product summary list"
         },
-        "CircularImage": {
+        "Personalization": {
           "brands": [
             {
               "name": "Bon-Appetite",
@@ -117,9 +117,9 @@
               "engagement": 4
             }
           ],
-          "control": "SideBySideDesktopOnlyThirdsCircularImage"
+          "control": "No personalization"
         },
-        "SideBySideImageRight": {
+        "Product pro+con summary": {
           "brands": [
             {
               "name": "Bon-Appetite",
@@ -134,7 +134,7 @@
               "engagement": 10
             }
           ],
-          "control": "SideBySideCenterImageLeft"
+          "control": "No Summary"
         }
       }
     }
