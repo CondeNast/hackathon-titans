@@ -46,7 +46,7 @@
     {
       "name": "Subscription",
       "variations": {
-        "1 day free trail": {
+        "7 day free trail": {
           "brands": [
             {
               "name": "Bon-Appetite",
@@ -85,7 +85,7 @@
     {
       "name": "Click Through Rate",
       "variations": {
-        "Affiliate Commerce link at the top": {
+        "Affiliate commerce link at the top": {
           "brands": [
             {
               "name": "Bon-Appetite",
@@ -119,7 +119,7 @@
           ],
           "control": "No personalization"
         },
-        "Product pro+con summary": {
+        "Product Pro+Con summary": {
           "brands": [
             {
               "name": "Bon-Appetite",
