@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hackathon-titans/static/css/main.3780259a.css",
-    "main.js": "/hackathon-titans/static/js/main.01160dbb.js",
+    "main.css": "/hackathon-titans/static/css/main.0d88a8a1.css",
+    "main.js": "/hackathon-titans/static/js/main.aedfaef0.js",
     "static/js/787.545aecf5.chunk.js": "/hackathon-titans/static/js/787.545aecf5.chunk.js",
     "index.html": "/hackathon-titans/index.html",
-    "main.3780259a.css.map": "/hackathon-titans/static/css/main.3780259a.css.map",
-    "main.01160dbb.js.map": "/hackathon-titans/static/js/main.01160dbb.js.map",
+    "main.0d88a8a1.css.map": "/hackathon-titans/static/css/main.0d88a8a1.css.map",
+    "main.aedfaef0.js.map": "/hackathon-titans/static/js/main.aedfaef0.js.map",
     "787.545aecf5.chunk.js.map": "/hackathon-titans/static/js/787.545aecf5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3780259a.css",
-    "static/js/main.01160dbb.js"
+    "static/css/main.0d88a8a1.css",
+    "static/js/main.aedfaef0.js"
   ]
 }
